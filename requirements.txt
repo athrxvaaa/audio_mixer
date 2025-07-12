@@ -18,5 +18,8 @@ boto3==1.34.0
 moviepy==1.0.3
 Pillow==10.0.0
 
+# HTTP client - compatible with openai
+httpx==0.24.1
+
 # Additional utilities for production
 python-json-logger==2.0.7 
