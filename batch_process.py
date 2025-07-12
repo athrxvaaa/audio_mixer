@@ -41,7 +41,7 @@ def get_media_files(input_dir: str) -> List[str]:
 
 def process_media_batch(input_dir: str = "input_videos", 
                        output_dir: str = "output_videos",
-                       bgm_volume: float = 0.3,
+                       bgm_volume: float = 0.2,
                        skip_existing: bool = True,
                        resolution: tuple = (1920, 1080)):
     """

@@ -241,3 +241,4 @@ Contributions are welcome! Areas for improvement:
 - Ensure you have rights to use any background music
 - Respect copyright and licensing requirements
 - Test with sample videos before processing important content
+ 

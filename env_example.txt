@@ -2,6 +2,30 @@
 # Get your API key from: https://platform.openai.com/api-keys
 OPENAI_API_KEY=your_openai_api_key_here
 
+# AWS S3 Configuration (for file uploads)
+AWS_ACCESS_KEY_ID=your_aws_access_key_here
+AWS_SECRET_ACCESS_KEY=your_aws_secret_key_here
+AWS_S3_BUCKET_NAME=your_s3_bucket_name
+AWS_REGION=ap-south-1
+
+# AWS S3 Configuration (for BGM files)
+BGM_S3_BUCKET_NAME=your_bgm_s3_bucket_name
+BGM_S3_PREFIX=bgm/
+
+# API Server Configuration
+HOST=0.0.0.0
+PORT=8000
+ENVIRONMENT=production
+LOG_LEVEL=info
+
+# CORS Configuration
+# Comma-separated list of allowed origins (e.g., "https://yourdomain.com,https://app.yourdomain.com")
+# Use "*" for development only
+CORS_ORIGINS=https://yourdomain.com,https://app.yourdomain.com
+
+# Feature Flags
+ENABLE_S3_UPLOAD=true
+
 # Optional: Music API configurations (for future enhancements)
 # JAMENDO_API_KEY=your_jamendo_api_key_here
 # FREEMUSICARCHIVE_API_KEY=your_fma_api_key_here 

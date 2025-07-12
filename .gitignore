@@ -100,27 +100,6 @@ poetry.lock
 .env.*
 
 # Audio/video outputs
-output_audio/
-output_videos/
-*.wav
-*.mp3
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.flac
-*.ogg
-*.webm
-*.m4a
-*.aac
-*.wma
-
-# Temporary files
-*.tmp
-*.temp
-*.swp
-*.swo
-*.bak
 
 # MacOS
 .DS_Store
